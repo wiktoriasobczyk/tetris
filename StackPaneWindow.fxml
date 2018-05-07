@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PieChart id="xddd" blendMode="SRC_ATOP" depthTest="ENABLE" style="-fx-background-color: pink;" title="xd" titleSide="BOTTOM">
+         <opaqueInsets>
+            <Insets bottom="21321.0" left="21321.0" right="21321.0" top="21321.0" />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="W_RESIZE" />
+         </cursor>
+      </PieChart>
+      <LineChart>
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</StackPane>
